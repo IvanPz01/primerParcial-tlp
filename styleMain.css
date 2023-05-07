@@ -1,0 +1,21 @@
+body{
+    background-color: #1166;
+}
+/* este es el tetxto principal centrado css */
+.centerText{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 5px;
+}
+/* aca acabaria el centrado y prubes */

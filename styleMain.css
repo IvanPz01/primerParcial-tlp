@@ -1,21 +1,43 @@
 body{
-    background-color: #1166;
+    background-color: #1669;
+    /* background-image: url(/fondos-padres.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 /* este es el tetxto principal centrado css */
 .centerText{
-    width: 60vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
     text-align: center;
 }
 section{
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin-top: 5px;
+    background-color: #1669;
 }
 /* aca acabaria el centrado y prubes */
+
+/* edit del titulo y sub titulos */
+.tituloPrincipal{
+    background-color: cyan;
+    color: black;
+    margin: 0%;
+    padding-bottom: 5px;
+    border: 1px black solid;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* aca se acaban los edit de los titulos */
+
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+

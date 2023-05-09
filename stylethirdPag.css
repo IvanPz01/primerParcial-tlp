@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(45deg, black, green);
+  min-height: 100vh;
+}
+
+.mainDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(2, 50%);
+  padding-top: 20px;
+}
+
+/* .centerImgCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+} */

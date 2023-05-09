@@ -3,3 +3,33 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 300px) {
+  .centerText {
+    padding-top: 20px;
+  }
+
+  header {
+    /* display: flex;
+    flex-direction: column; */
+    height: 200px;
+  }
+  .menu {
+    height: 20vh;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .sobreTi {
+    height: 150px;
+    width: 100%;
+  }
+  .conteinerH1 {
+    height: 150px;
+    width: 100%;
+    padding-top: 20px;
+  }
+}

@@ -4,15 +4,14 @@ body {
 }
 
 .mainDiv {
-  display: grid;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: repeat(2, 50%);
-  padding-top: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .centerImgCard {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-} */
+.centerImgCard {
+display: flex;
+
+}

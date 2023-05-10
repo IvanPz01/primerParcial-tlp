@@ -2,19 +2,55 @@
   .centerText {
     width: 100%;
   }
+  .mainDiv {
+    padding-top: 30px;
+  }
+  .centerImgCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .sobreTi {
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .caja1 {
+    width: 60%;
+    height: auto;
+  }
+  .caja1 img {
+    width: 60%;
+    height: auto;
+  }
 }
+
+@media screen and (max-width: 900px) {
+  .mainDiv {
+    padding-top: 30px;
+  }
+  .centerImgCard {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .sobreTi {
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+  } */
+}
+
 @media screen and (max-width: 300px) {
   .centerText {
     padding-top: 20px;
   }
 
-  header {
+  .header {
     /* display: flex;
     flex-direction: column; */
-    height: 200px;
+    height: auto;
   }
   .menu {
-    height: 20vh;
+    height: auto;
   }
   nav ul {
     display: flex;
@@ -24,8 +60,9 @@
     padding-left: 10px;
   }
   .sobreTi {
-    height: 150px;
+    height: auto;
     width: 100%;
+    padding-top: 100px;
   }
   .conteinerH1 {
     height: 150px;

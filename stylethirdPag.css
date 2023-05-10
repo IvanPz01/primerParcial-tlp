@@ -9,9 +9,35 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  padding-top: 20px;
 }
 
 .centerImgCard {
-display: flex;
-
+  display: flex;
+  gap: 20px;
 }
+
+button {
+  width: 50px;
+  background-color: rgb(44, 44, 44);
+  color: whitesmoke;
+}
+
+/* css del footer */
+
+.contenedorFooter {
+  color: whitesmoke;
+  background-color: #1669;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer {
+  padding-top: 20px;
+  margin-top: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px cyan;
+}
+
+/* termina el css del footer */

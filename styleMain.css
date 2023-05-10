@@ -4,8 +4,8 @@
   padding: 0;
 }
 body {
-  background: linear-gradient(180deg, black, green);
-  background-size: 200% 200%;
+  background: linear-gradient(45deg, black, green);
+  /* background-size: 200% 200%; */
   position: relative;
   font-family: Georgia, Times, "Times New Roman", serif;
   display: flex;
@@ -15,6 +15,7 @@ body {
 
 /* este es el nav de la pagina */
 .header {
+  /* position: fixed; */
   background-color: #1669;
   display: flex;
   width: 100%;
@@ -146,3 +147,12 @@ footer {
 }
 
 /* termina el css del footer */
+
+/* edit de los textos */
+
+.primerTexto {
+  font-size: 20px;
+  text-shadow: 0 0 10px cyan;
+}
+
+/* aca finalizan */
